@@ -1,0 +1,108 @@
+
+*{
+    box-shadow: inset 0px 0px 2px rgba(255, 0, 0, 0.0);
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+#fonte_01{
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+.shadow-text{
+    text-shadow: 6px 8px 11px;
+}
+
+.shadow-text-sm{
+    text-shadow: 4px 6px 15px;
+}
+
+.shadow{
+    text-shadow: 10px;
+    box-shadow: 5px;
+}
+
+
+.borda-preta{
+    border-radius: 7px;
+    border-color: black;
+    background-color: rgb(241, 197, 0);
+    
+}
+
+.btn-bd-primary{
+    
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--bd-violet);
+    --bs-btn-border-color: var(--bd-violet);
+    --bs-btn-border-radius: .5rem;
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: #{shade-color($bd-violet, 10%)};
+    --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
+    --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
+}
+
+#fundo{
+    margin: 0;
+    padding: 0;
+    padding-top: 0;
+    background-repeat:no-repeat ;
+    background-size:cover ;
+    background-attachment:fixed ;
+   
+}
+#score{
+    color:rgb(0, 128, 47);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 120%;
+    overflow:hidden;
+}
+
+#scorered{
+
+    color:red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 120%;
+    overflow:hidden;
+}
+
+.none{
+    text-decoration:none ;
+}
+
+#pp{
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
+    overflow:hidden;
+}
+
+.btn-200{
+    max-width: 200px;
+}
+
+.btn-500{
+    max-width: 500px;
+}
+
+.tamanho-pequeno{
+    max-width: 300px;
+    max-height: 150px;
+    min-width: 350px;
+    min-height: 200px ;
+}
+
+.bg-tp {
+    --bs-bg-opacity: 0.7;
+    background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+}
+
+.desc{
+
+        overflow-x: hidden; /* Hide horizontal scrollbar */
+        overflow-y: scroll; /* Add vertical scrollbar */
+      
+}
